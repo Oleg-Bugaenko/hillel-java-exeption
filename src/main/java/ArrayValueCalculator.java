@@ -2,8 +2,8 @@ public class ArrayValueCalculator {
     public static void main(String[] args) {
         String[][] array = {
                 {"2", "4", "6", "56"},
-                {"7", "3FQG", "86", "1"},
-                {"48", "4", "53", "56"},
+                {"7", "35", "86", "1"},
+                {"48", "4FGQ", "53", "56"},
                 {"28", "5", "9", "32"},
         };
         int totalValue;
@@ -14,10 +14,6 @@ public class ArrayValueCalculator {
         } catch (ArrayDataException | ArraySizeException e) {
             e.printStackTrace();
         }
-
-
-        System.out.println("Program shutdown");
-
 
     }
 
